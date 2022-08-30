@@ -75,13 +75,12 @@ ul {
 li {
     font-weight: 300;
     font-size: 14px;
-
 }
 
 span {
     color: white;
     font-size: 10px;
-    border-radius: 15px;
+    border-radius: 10px;
     padding: 5px 10px;
 }
 
