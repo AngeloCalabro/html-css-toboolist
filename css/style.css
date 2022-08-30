@@ -3,8 +3,29 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
-header {
-    background-color: red;
+/* Header */
+header>img {
+    padding: 10px 0;
+}
+
+h1 {
+    font-size: 40px;
+    display: inline-block;
+}
+
+/* colore sfondo */
+main {
+    background-color: #f6f8f9;
+    width: 100%;
+    padding: 50px;
+}
+
+section {
+    background-color: white;
+    margin: 0 auto;
+    width: 80%;
+
 }
