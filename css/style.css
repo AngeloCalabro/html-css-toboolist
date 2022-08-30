@@ -9,11 +9,14 @@
 /* Header */
 header>img {
     padding: 10px 0;
+    vertical-align: middle;
 }
 
 h1 {
     font-size: 40px;
     display: inline-block;
+    vertical-align: middle;
+
 }
 
 /* colore sfondo */
