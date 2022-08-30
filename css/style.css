@@ -26,9 +26,11 @@ main {
 section {
     background-color: white;
     margin: 0 auto;
+    padding: 20px;
     width: 80%;
 }
 
+/* bottoni */
 button {
     padding: 5px 10px;
     text-align: center;
@@ -50,4 +52,9 @@ button {
     background-color: #ffffff;
     border: 1px solid #c7ccd1;
     color: #c7ccd1;
+}
+
+/* lista */
+li {
+    list-style-type: none;
 }
