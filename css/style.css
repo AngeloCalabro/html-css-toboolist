@@ -26,18 +26,24 @@ main {
     padding: 50px;
 }
 
-section {
+hr {
+    color: #c7ccd1;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.container-white {
     background-color: white;
     margin: 0 auto;
     width: 60%;
+}
+
+.button-section,
+.elenco {
     padding: 10px 30px;
 }
 
 /* bottoni */
-.button-section {
-    border-bottom: 1px solid #c7ccd1;
-}
-
 button {
     padding: 5px 10px;
     text-align: center;
@@ -50,7 +56,7 @@ button {
 
 #button1 {
     background-color: #47adf1;
-    border: none;
+    border: 1px solid #47adf1;
     color: white;
 }
 
@@ -60,14 +66,15 @@ button {
     color: #c7ccd1;
 }
 
-hr {
-    color: #c7ccd1;
-}
-
 /* lista */
-
-.elenco {
-    line-height: 30px;
+.check {
+    color: green;
+    border: 1px solid green;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 ul {
@@ -80,13 +87,15 @@ li {
     font-size: 14px;
 }
 
-span {
+/* etichette colorate proprietà comuni */
+.tag {
     color: white;
     font-size: 10px;
     border-radius: 10px;
-    padding: 5px 10px;
+    padding: 2px 7px;
 }
 
+/* colori etichette */
 .editorial {
     background-color: #45abea;
 }
